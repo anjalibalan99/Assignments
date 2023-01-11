@@ -1,5 +1,5 @@
 """  
-  Assignment 1 & 2 - Prime Number 
+  Assignment 1  - Prime Number 
   jan 10, 2023
   Anjali Krishna
 """
