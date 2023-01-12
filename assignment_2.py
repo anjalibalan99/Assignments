@@ -27,7 +27,7 @@ def variableInvestor(salary,p_rate,v_rate):
 
             price=(salary*p_rate)+(price*j)
         interest.append(price)
-    return interest
+    return sum(interest)
 
 # problem 3
 def finallyRetired(saved,v_rate,expenced):
@@ -36,3 +36,5 @@ def finallyRetired(saved,v_rate,expenced):
      
 print(fixedInvestor(50000,.15,1.05,3))
 print(variableInvestor(50000,.15,[1,2,3,4,5]))
+print(finallyRetired(variableInvestor(50000,.15, [1,2,3,4,5]),.15, 12000))
+
